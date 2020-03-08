@@ -1,0 +1,9 @@
+Installation process
+Make sure python3 and pip3 are installed
+1.python3 -m venv --system-site-packages ./venv
+2. source ./venv/bin/activate
+To install both Rasa Open Source and Rasa X in one go:
+pip install rasa-x --extra-index-url https://pypi.rasa.com/simple
+ pip install rasa[spacy] || pip install rasa[spacy] for zsh
+python -m spacy download en_core_web_md
+python -m spacy link en_core_web_md en

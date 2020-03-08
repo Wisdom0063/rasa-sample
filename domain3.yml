@@ -1,0 +1,43 @@
+actions:
+- action_hello_world
+- utter_agent_will_respond
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_how_can_help
+- utter_iamabot
+- utter_other_help
+- utter_sorry
+- utter_wellbeing
+intents:
+- deny
+- greet
+- talk_to_agent
+- mood_great
+- affirm
+- goodbye
+- bot_challenge
+- wellbeing
+- mood_unhappy
+templates:
+  utter_agent_will_respond:
+  - text: One of customer service personel will get in touch with you
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_goodbye:
+  - text: Bye
+  utter_greet:
+  - text: Hey! How are you?
+  utter_happy:
+  - text: Great, carry on!
+  utter_how_can_help:
+  - text: How can I help?
+  utter_iamabot:
+  - text: I am SmartBot. Your number one shopping assistant
+  utter_other_help:
+  - text: Is there anything else I can assist you with?
+  utter_sorry:
+  - text: Aww, I am sorry about that
+  utter_wellbeing:
+  - text: I am excited you got in touch
